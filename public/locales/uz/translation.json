@@ -1,0 +1,237 @@
+{
+  "topBar": {
+    "menu": "MENYU",
+    "products": "MAHSULOTLAR",
+    "search": "QIDIRUV"
+  },
+  "menu": {
+    "main": "ASOSIY",
+    "about": "KOMPANIYA HAQIDA",
+    "training": "UAV BOSHQARUV TA'LIMI",
+    "licences": "LITSENZIYA VA SERTIFIKATLAR",
+    "contacts": "KONTAKTLAR",
+    "career": "KARYERA",
+    "news": "YANGILIKLAR",
+    "photos": "FOTOLAR",
+    "videos": "VIDEOLAR",
+    "products": "MAHSULOTLAR",
+    "uav": "UCHUVCHISIZ HAVO QURILMALARI",
+    "payloads": "FOYDALI YUKLAR",
+    "services": "XIZMATLAR",
+    "aerial": "AEROFOTOSYOMKA",
+    "laser": "LAZERLI SKANERLASH",
+    "application": "QO'LLANILISHI"
+  },
+  "hero": {
+    "title1": "Uchuvchisiz Tizimlar",
+    "title2": "& Aerokosmik",
+    "desc": "Uchuvchisiz Havo Qurilmalari (UAV) ishlab chiqaruvchi yetakchi kompaniya. Biz havo monitoringi, foydali yuklar va lazerli skanerlash kabi ilg'or yechimlarni taqdim etamiz.",
+    "explore": "Mahsulotlarni Ko'rish",
+    "services": "Bizning Xizmatlar",
+    "scroll": "Pastroqqa"
+  },
+  "footer": {
+    "desc": "Uchuvchisiz Havo Qurilmalari (UAV) va aerokosmik yechimlar ishlab chiqaruvchi yetakchi kompaniya.",
+    "company": "Kompaniya",
+    "about": "Biz haqimizda",
+    "career": "Karyera",
+    "news": "Yangiliklar",
+    "contact": "Kontaktlar",
+    "address1": "Aerokosmik xiyoboni 123",
+    "address2": "Toshkent, O'zbekiston",
+    "copyright": "© {year} ATRAK Aerospace. Barcha huquqlar himoyalangan."
+  },
+  "capabilities": {
+    "title": "BIZNING IMKONIYATLAR",
+    "subtitle": "BIZNING IMKONIYATLAR",
+    "items": {
+      "mission": "Missiyani rejalashtirish",
+      "uav": "Avtonom UAVlar",
+      "ai": "Sun'iy intellekt",
+      "comm": "Aloqa tizimlari",
+      "sim": "Simulyatsiya va o'qitish"
+    }
+  },
+  "newProducts": {
+    "title": "YANGI MAHSULOTLAR",
+    "subtitle": "SO'NGI ISHLANMALAR",
+    "specs": {
+      "range": "Masofa",
+      "endurance": "Parvoz vaqti",
+      "weight": "Maks. uchish og'irligi",
+      "wingspan": "Qanot kengligi"
+    },
+    "readMore": "BATAFSIL O'QISH",
+    "drones": {
+      "t20": {
+        "title": "ATRAK T-20",
+        "desc": "Elektr dvigatelli va yuk ko'tarish quvvati oshirilgan dron operatordan 100 km dan ortiq masofada 7 soatdan ko'proq havoda qolishi mumkin.",
+        "fullDesc": [
+          "ATRAK T-20 elektr dvigatel bilan jihozlangan bo'lib, buning natijasida havo kemasi 7 soatdan ko'proq vaqt davomida havoda qolib, boshqaruv punktidan 100 km dan ortiq masofaga HD videolarni uzatishi mumkin. Uchuvchisiz tizim qiziqish uyg'otadigan obyektlarni razvedka qilish va kuzatish uchun ishlatiladi.",
+          "ATRAK T-20 UAV zamonaviy sun'iy intellekt algoritmlaridan foydalanadigan bort hisoblagichi bilan jihozlangan bo'lib, u kerakli qarorlarni tezda qabul qilish imkonini beradi va boshqa ishlab chiqaruvchilarning analoglariga qaraganda foydalanish samaradorligini oshiradi.",
+          "ATRAK T-16 modeli bilan to'liq mos keladigan yer usti uskunasi, shu jumladan ishga tushirish qurilmasi va foydali yuklar, afzallik hisoblanadi va mavjud komplekslarni qayta jihozlash xarajatlarini sezilarli darajada kamaytirishga imkon beradi, bu esa eng qisqa vaqt ichida yangi UAVdan foydalanishni boshlash imkonini beradi."
+        ],
+        "benefits": [
+          "Signalni qayta uzatish",
+          "Radio shovqinlarga qarshilik",
+          "Aqlli navigatsiya va aloqa moduli",
+          "Obyektlarni izlash va aniqlash uchun bortdagi AI va ustuvor nishonni tanlash rejimi"
+        ],
+        "tableSpecs": {
+          "takeoffWeight": "17 kg",
+          "payloadWeight": "2,5 kg",
+          "wingspan": "4000 mm",
+          "engineType": "Elektr",
+          "endurance": "7+ s",
+          "range": "100+ km",
+          "altitude": "100-5000 m",
+          "ceiling": "5000 m",
+          "speed": "65-110 km/s",
+          "launch": "Pnevmatik tipdagi uchiruvchi",
+          "landing": "Parashyut, havo yostig'i",
+          "temp": "-40°C ... +50°C",
+          "wind": "15 m/s",
+          "navigation": "SNS korreksiyali INS, lazer masofa o'lchagich, alternativ navigatsiya tizimi, vizual navigatsiya tizimi (VNS)"
+        }
+      },
+      "t16": {
+        "title": "ATRAK 421-16E",
+        "desc": "Yuqori aniqlikdagi yuklar bilan doimiy masofaviy monitoring uchun universal uchuvchisiz havo majmuasi.",
+        "fullDesc": [
+          "ATRAK 421-16E yuqori yuk ko'tarish qobiliyati va uzoq vaqt havoda bo'lish qobiliyatini o'zida mujassam etgan ilg'or tizim...",
+          "Og'ir sharoitlar uchun yaratilgan."
+        ],
+        "benefits": [
+          "Uzoq vaqt uchish",
+          "Turli yuklarni qo'llab-quvvatlash"
+        ],
+        "tableSpecs": {
+          "takeoffWeight": "10.5 kg",
+          "payloadWeight": "1.5 kg",
+          "wingspan": "2800 mm",
+          "engineType": "Elektr",
+          "endurance": "4+ s",
+          "range": "75+ km",
+          "altitude": "100-3000 m",
+          "ceiling": "3000 m",
+          "speed": "60-100 km/s",
+          "launch": "Elastik katapulta",
+          "landing": "Parashyut",
+          "temp": "-30°C ... +40°C",
+          "wind": "15 m/s",
+          "navigation": "INS, GPS/GLONASS"
+        }
+      }
+    }
+  },
+  "productDetails": {
+    "tabs": {
+      "desc": "Tavsif",
+      "specs": "Xususiyatlari"
+    },
+    "breadcrumbs": {
+      "main": "Asosiy",
+      "products": "Mahsulotlar",
+      "uav": "Uchuvchisiz havo vositalari"
+    },
+    "back": "Orqaga",
+    "submitRequest": "ARIZA QOLDIRISH",
+    "keyBenefits": "ASOSIY AFZALLIKLAR",
+    "specLabels": {
+      "takeoffWeight": "Uchish og'irligi",
+      "payloadWeight": "Maks. yuk og'irligi",
+      "wingspan": "Qanot kengligi",
+      "engineType": "Dvigatel turi",
+      "endurance": "Parvoz vaqti",
+      "range": "Masofa (video)",
+      "altitude": "Ishlash balandligi",
+      "ceiling": "Maks. balandlik",
+      "speed": "Tezlik diapazoni",
+      "launch": "Uchirish",
+      "landing": "Qo'nish",
+      "temp": "Ishlash harorati",
+      "wind": "Maks. shamol tezligi",
+      "navigation": "Navigatsiya"
+    }
+  },
+  "pages": {
+    "comingSoon": "Tez orada malumot qo'shiladi...",
+    "application": {
+      "title": "QO'LLANILISHI",
+      "desc": "Kompaniyamiz texnologiyalari turli sohalarda samarali natijalarni ko'rsatmoqda."
+    },
+    "news": {
+      "title": "YANGILIKLAR",
+      "desc": "Kompaniya va sohadagi eng so'nggi yangiliklar, voqealar va press-relizlar."
+    },
+    "photos": {
+      "title": "FOTOLAR",
+      "desc": "Parvozlar, ishlab chiqarish va texnologiyalarning eksklyuziv fotosuratlari."
+    },
+    "videos": {
+      "title": "VIDEOLAR",
+      "desc": "Dronlarimizning amaldagi parvozlari va texnik imkoniyatlari haqida videolar."
+    },
+    "career": {
+      "title": "KARYERA",
+      "desc": "ATRAK jamoasiga qo'shiling va kelajak texnologiyalarini biz bilan yarating."
+    },
+    "contacts": {
+      "title": "KONTAKTLAR",
+      "desc": "Biz bilan bog'laning. Hamkorlik va loyihalar uchun ochiqmiz."
+    }
+  },
+  "about": {
+    "title": "ATRAK AEROSPACE HAQIDA",
+    "desc": "Biz mudofaa, xavfsizlik va sanoat uchun ilg'or uchuvchisiz tizimlar va aerokosmik yechimlar yaratamiz.",
+    "missionTitle": "BIZNING MISSIYAMIZ",
+    "missionDesc": "Zamonaviy tahdidlar va murakkab vazifalarni hal etish uchun eng ishonchli, sun'iy intellektga asoslangan havo tizimlarini yetkazib berish.",
+    "historyTitle": "TARIX VA TAJRIBA",
+    "historyDesc": "ATRAK jamoasi sohada ko'p yillik tajribaga ega bo'lib, o'zining noyob ishlanmalari bilan dunyo bozoriga chiqmoqda.",
+    "stats": {
+      "years": "YIL TAJRIBA",
+      "systems": "YARATILGAN TIZIMLAR",
+      "flights": "PARVOZ SOATLARI"
+    }
+  },
+  "products": {
+    "title": "Mahsulotlar va Yechimlar",
+    "desc": "Sanoatda yetakchi bo'lgan uchuvchisiz tizimlar, foydali yuklar va murakkab operatsiyalar uchun mo'ljallangan maxsus aerokosmik uskunalarimiz bilan tanishing.",
+    "categories": {
+      "uav": "Uchuvchisiz Havo Qurilmalari",
+      "payload": "Foydali Yuklar"
+    },
+    "items": {
+      "zala-aero-1": {
+        "name": "ATRAK 421-16E"
+      },
+      "zala-aero-2": {
+        "name": "ATRAK 421-24"
+      },
+      "zala-payload-1": {
+        "name": "HD Video Yuklar"
+      },
+      "zala-payload-2": {
+        "name": "Teplovizorlar"
+      }
+    }
+  },
+  "services": {
+    "title": "Bizning Xizmatlar",
+    "desc": "Sanoat, qishloq xo'jaligi va xavfsizlik vazifalari uchun moslashtirilgan kompleks havo yechimlari.",
+    "items": {
+      "service-1": {
+        "title": "Aerofotosyomka",
+        "desc": "Aniq xaritalash uchun ilg'or optik yuklar yordamida yuqori aniqlikdagi ortofotoplanlar va 3D relyef modellari."
+      },
+      "service-2": {
+        "title": "Lazerli Skanerlash",
+        "desc": "Qalin o'simliklar qoplami orqali ham relyef haqida yuqori aniqlikdagi ma'lumotlarni olish uchun havo LiDAR skanerlash."
+      },
+      "service-3": {
+        "title": "Monitoring Xizmatlari",
+        "desc": "Kritik infratuzilma, quvurlar va qishloq xo'jaligi zonalarini uzluksiz masofadan monitoring qilish."
+      }
+    }
+  }
+}

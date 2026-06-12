@@ -1,0 +1,183 @@
+.hero-banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #000; /* Video qora bolgani uchun orqa fon ham qora */
+
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Hech qanday qora joysiz va hamma matnlarni ko'rsatish uchun */
+    z-index: 0;
+    opacity: 1;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent; /* Qora parda olib tashlandi */
+    z-index: 5;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 1.5rem;
+
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+
+      span {
+        color: var(--text-secondary);
+        font-weight: 400;
+      }
+    }
+
+    p {
+      font-size: clamp(1rem, 1.5vw, 1.25rem);
+      max-width: 800px;
+      margin: 0 auto 3rem auto;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .btn-secondary {
+        color: #ffffff;
+        border-color: #ffffff;
+      }
+    }
+  }
+
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+    z-index: 10;
+
+    span {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .line-track {
+      width: 1px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.3);
+      position: relative;
+
+      .line-progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10px;
+        background: #ffffff;
+      }
+    }
+  }
+
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    z-index: 20;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    &.left {
+      left: 2rem;
+    }
+
+    &.right {
+      right: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0.5rem;
+
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+
+      &.left {
+        left: 0.5rem;
+      }
+
+      &.right {
+        right: 0.5rem;
+      }
+    }
+  }
+
+  .slider-dots {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    gap: 0.75rem;
+    z-index: 20;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.3);
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      padding: 0;
+
+      &.active {
+        background-color: #ffffff;
+        transform: scale(1.3);
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}

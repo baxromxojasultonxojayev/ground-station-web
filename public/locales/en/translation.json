@@ -1,0 +1,200 @@
+{
+  "topBar": {
+    "menu": "MENU",
+    "products": "PRODUCTS",
+    "search": "SEARCH"
+  },
+  "menu": {
+    "main": "MAIN",
+    "about": "ABOUT THE COMPANY",
+    "training": "UAV CONTROL TRAINING",
+    "licences": "LICENCES AND CERTIFICATES",
+    "contacts": "CONTACTS",
+    "career": "CAREER",
+    "news": "NEWS",
+    "photos": "PHOTOS",
+    "videos": "VIDEOS",
+    "products": "PRODUCTS",
+    "uav": "UNMANNED AERIAL VEHICLES",
+    "payloads": "PAYLOAD SOLUTIONS",
+    "services": "SERVICES",
+    "aerial": "AERIAL PHOTOGRAPHY",
+    "laser": "LASER SCANNING",
+    "application": "APPLICATION"
+  },
+  "hero": {
+    "title1": "Unmanned Systems",
+    "title2": "& Aerospace",
+    "desc": "Leading developer and manufacturer of Unmanned Aerial Vehicles (UAVs). We provide advanced solutions in aerial monitoring, payload systems, and laser scanning.",
+    "explore": "Explore Products",
+    "services": "Our Services",
+    "scroll": "Scroll"
+  },
+  "footer": {
+    "desc": "Leading developer and manufacturer of Unmanned Aerial Vehicles (UAVs) and aerospace solutions.",
+    "company": "Company",
+    "about": "About Us",
+    "career": "Career",
+    "news": "News",
+    "contact": "Contact",
+    "address1": "123 Aerospace Boulevard",
+    "address2": "Tashkent, Uzbekistan",
+    "copyright": "© {year} ATRAK Aerospace. All rights reserved."
+  },
+  "capabilities": {
+    "title": "OUR CAPABILITIES",
+    "subtitle": "OUR CAPABILITIES",
+    "items": {
+      "mission": "Mission planning",
+      "uav": "Stand-alone UAVs",
+      "ai": "Artificial intelligence",
+      "comm": "Communication systems",
+      "sim": "Simulation and training"
+    }
+  },
+  "newProducts": {
+    "title": "NEW PRODUCTS",
+    "subtitle": "LATEST DEVELOPMENTS",
+    "specs": {
+      "range": "Range",
+      "endurance": "Endurance",
+      "weight": "Maximum takeoff weight",
+      "wingspan": "Wingspan"
+    },
+    "readMore": "READ MORE",
+    "drones": {
+      "t20": {
+        "title": "ATRAK T-20",
+        "desc": "A UAV with an electric motor and increased payload can be in the air for more than 7 hours at a distance of more than 100 km from the operator.",
+        "fullDesc": [
+          "The ATRAK T-20 is equipped with an electric motor, thanks to which the aircraft can stay in the air for more than 7 hours, transmitting HD video at a distance of more than 100 km from the control point. The unmanned system is used for reconnaissance and surveillance of objects of interest.",
+          "The ATRAK T-20 UAV is equipped with an on-board calculator using modern artificial intelligence algorithms, which allows to quickly make the necessary decisions, increasing the efficiency of application compared to analogues of other manufacturers.",
+          "Fully compatible with the ATRAK T-16 model, the ground equipment, including the launcher and payloads, is an advantage and allows to significantly reduce the cost of retrofitting existing complexes, making it possible to start using the new UAV in the shortest possible time. The new model has an increased payload capacity, which allows the installation of additional payloads depending on the task facing the UAV operator."
+        ],
+        "benefits": [
+          "Signal retransmission",
+          "Radio Interference resistance",
+          "Smart navigation and communication module",
+          "On-board AI for object search and identification with priority target selection mode"
+        ],
+        "tableSpecs": {
+          "takeoffWeight": "17 kg",
+          "payloadWeight": "2,5 kg",
+          "wingspan": "4000 mm",
+          "engineType": "Electric",
+          "endurance": "7+ h",
+          "range": "100+ km",
+          "altitude": "100-5000 m",
+          "ceiling": "5000 m",
+          "speed": "65-110 km/h",
+          "launch": "Pneumatic-type launcher",
+          "landing": "Parachute, air absorber",
+          "temp": "-40°C ... +50°C",
+          "wind": "15 m/s",
+          "navigation": "INS with SNS correction, double-range finder, alternative navigation system, video navigation system (VNS)"
+        }
+      },
+      "t16": {
+        "title": "ATRAK 421-16E",
+        "desc": "Universal unmanned aerial system for continuous remote monitoring with high-resolution payloads.",
+        "fullDesc": [
+          "ATRAK 421-16E is an advanced system that combines high payload capacity with long endurance...",
+          "Built for severe conditions."
+        ],
+        "benefits": [
+          "Long endurance",
+          "Multiple payloads support"
+        ],
+        "tableSpecs": {
+          "takeoffWeight": "10.5 kg",
+          "payloadWeight": "1.5 kg",
+          "wingspan": "2800 mm",
+          "engineType": "Electric",
+          "endurance": "4+ h",
+          "range": "75+ km",
+          "altitude": "100-3000 m",
+          "ceiling": "3000 m",
+          "speed": "60-100 km/h",
+          "launch": "Elastic catapult",
+          "landing": "Parachute",
+          "temp": "-30°C ... +40°C",
+          "wind": "15 m/s",
+          "navigation": "INS, GPS/GLONASS"
+        }
+      }
+    }
+  },
+  "productDetails": {
+    "tabs": {
+      "desc": "Description",
+      "specs": "Specifications"
+    },
+    "breadcrumbs": {
+      "main": "Main",
+      "products": "Products",
+      "uav": "Unmanned aerial vehicles"
+    },
+    "back": "Back",
+    "submitRequest": "SUBMIT REQUEST",
+    "keyBenefits": "KEY BENEFITS",
+    "specLabels": {
+      "takeoffWeight": "Takeoff weight",
+      "payloadWeight": "Maximum payload weight",
+      "wingspan": "Wingspan",
+      "engineType": "Engine type",
+      "endurance": "Endurance",
+      "range": "Range (video)",
+      "altitude": "Operational altitude",
+      "ceiling": "Ceiling",
+      "speed": "Speed range",
+      "launch": "Launch",
+      "landing": "Landing",
+      "temp": "Operating temperature range",
+      "wind": "Maximum wind speed",
+      "navigation": "Navigation"
+    }
+  },
+  "pages": {
+    "comingSoon": "Content coming soon..."
+  },
+  "products": {
+    "title": "Products & Solutions",
+    "desc": "Explore our range of industry-leading unmanned systems, payloads, and specialized aerospace equipment designed for demanding operations.",
+    "categories": {
+      "uav": "Unmanned Aerial Vehicles",
+      "payload": "Payload Solutions"
+    },
+    "items": {
+      "zala-aero-1": {
+        "name": "ATRAK 421-16E"
+      },
+      "zala-aero-2": {
+        "name": "ATRAK 421-24"
+      },
+      "zala-payload-1": {
+        "name": "HD Video Payloads"
+      },
+      "zala-payload-2": {
+        "name": "Thermal Imagers"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "desc": "Comprehensive aerial solutions tailored for industrial, agricultural, and security applications.",
+    "items": {
+      "service-1": {
+        "title": "Aerial Photography",
+        "desc": "High-resolution orthophotomaps and 3D terrain models using advanced optical payloads for accurate mapping."
+      },
+      "service-2": {
+        "title": "Laser Scanning",
+        "desc": "Airborne LiDAR scanning to acquire highly precise elevation data, even through dense vegetation cover."
+      },
+      "service-3": {
+        "title": "Monitoring Services",
+        "desc": "Continuous remote monitoring of critical infrastructure, pipelines, and agricultural zones."
+      }
+    }
+  }
+}
