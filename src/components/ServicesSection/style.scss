@@ -1,15 +1,15 @@
 .services-section {
-  background-color: var(--bg-secondary);
+  background-color: #f9f9f9;
 
   .section-header {
     text-align: center;
     margin-bottom: 4rem;
 
     h2 {
-      color: var(--text-primary);
+      color: #1a1a1a;
     }
     p {
-      color: var(--text-secondary);
+      color: #888888;
       max-width: 600px;
       margin: 0 auto;
       font-size: 1.1rem;
@@ -27,9 +27,9 @@
   }
 
   .service-card {
-    background: var(--bg-surface);
+    background: #ffffff;
     padding: 3rem 2rem;
-    border: 1px solid var(--border-muted);
+    border: 1px solid #e5e5e5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,21 +39,22 @@
     &:hover {
       transform: translateY(-5px);
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border-color: #d0d0d0;
     }
 
     .icon-wrapper {
-      color: var(--text-primary);
+      color: #1a1a1a;
       margin-bottom: 1.5rem;
     }
 
     h3 {
       font-size: 1.25rem;
       margin-bottom: 1rem;
-      color: var(--text-primary);
+      color: #1a1a1a;
     }
 
     p {
-      color: var(--text-secondary);
+      color: #666666;
       font-size: 0.95rem;
       line-height: 1.6;
     }
