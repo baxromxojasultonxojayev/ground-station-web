@@ -34,6 +34,7 @@ const HeroBanner: React.FC = () => {
           autoPlay
           muted
           playsInline
+          preload="auto"
           onEnded={nextSlide}
           className="hero-video"
           initial={{ opacity: 0 }}
