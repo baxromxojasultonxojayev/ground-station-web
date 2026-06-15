@@ -20,21 +20,21 @@ export const CapabilitiesSection: React.FC = () => {
       <div className="container">
         <div className="section-header">
           <h2>{t("capabilities.title")}</h2>
-          <span className="hidden md:inline">{t("capabilities.subtitle")}</span>
+          <span>{t("capabilities.subtitle")}</span>
         </div>
+      </div>
 
-        <div className="capabilities-grid">
-          {data.map((item) => (
-            <div key={item.key} className="capability-card">
-              <div 
-                className="bg-img"
-                style={{ backgroundImage: `url(${item.img})` }}
-              />
-              <div className="bg-overlay" />
-              <h3>{t(`capabilities.items.${item.key}`)}</h3>
-            </div>
-          ))}
-        </div>
+      <div className="capabilities-grid">
+        {data.map((item) => (
+          <div key={item.key} className="capability-card">
+            <div 
+              className="bg-img"
+              style={{ backgroundImage: `url(${item.img})` }}
+            />
+            <div className="bg-overlay" />
+            <h3>{t(`capabilities.items.${item.key}`)}</h3>
+          </div>
+        ))}
       </div>
     </section>
   );

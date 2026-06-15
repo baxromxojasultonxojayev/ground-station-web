@@ -95,10 +95,10 @@ html, body {
 
 @media (max-width: 768px) {
   .section {
-    padding: 4rem 0;
+    padding: 1.5rem 0; /* Reduced from 4rem to 1.5rem to fix large gaps */
   }
   .container {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
 }
 

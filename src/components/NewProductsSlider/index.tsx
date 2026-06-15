@@ -49,21 +49,10 @@ export const NewProductsSlider: React.FC = () => {
       <div className="container">
         <div className="slider-header">
           <h2>{t("newProducts.title")}</h2>
-          <div className="controls">
-            <button onClick={prevSlide} className="icon-btn" aria-label="Previous slide">
-              <ArrowLeft size={24} strokeWidth={1} />
-            </button>
-            <button onClick={nextSlide} className="icon-btn" aria-label="Next slide">
-              <ArrowRight size={24} strokeWidth={1} />
-            </button>
-          </div>
+          <span>{t("newProducts.subtitle") || "LATEST DEVELOPMENTS"}</span>
         </div>
 
         <div className="slider-container">
-          <button onClick={prevSlide} className="arrow-btn" aria-label="Previous slide">
-            <ArrowLeft size={24} strokeWidth={1} />
-          </button>
-
           <div className="slide-content">
             <AnimatePresence mode="wait">
               <motion.div
@@ -87,7 +76,18 @@ export const NewProductsSlider: React.FC = () => {
                 transition={{ duration: 0.5 }}
                 className="slide-info"
               >
-                <h3>{t(`newProducts.drones.${currentDrone.key}.title`)}</h3>
+                <div className="info-header">
+                  <h3>{t(`newProducts.drones.${currentDrone.key}.title`)}</h3>
+                  <div className="controls">
+                    <button onClick={prevSlide} className="control-btn prev-btn" aria-label="Previous slide">
+                      <ArrowLeft size={20} strokeWidth={1} color="#ffffff" />
+                    </button>
+                    <button onClick={nextSlide} className="control-btn next-btn" aria-label="Next slide">
+                      <ArrowRight size={20} strokeWidth={1} color="#000000" />
+                    </button>
+                  </div>
+                </div>
+                
                 <p className="desc">{t(`newProducts.drones.${currentDrone.key}.desc`)}</p>
 
                 <div className="specs-grid">
@@ -135,10 +135,6 @@ export const NewProductsSlider: React.FC = () => {
               </motion.div>
             </AnimatePresence>
           </div>
-
-          <button onClick={nextSlide} className="arrow-btn" aria-label="Next slide">
-            <ArrowRight size={24} strokeWidth={1} />
-          </button>
         </div>
       </div>
     </section>
