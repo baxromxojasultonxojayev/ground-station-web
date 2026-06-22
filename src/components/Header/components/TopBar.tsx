@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useState } from "react";
@@ -82,14 +83,8 @@ export const TopBar: React.FC<TopBarProps> = ({ scrolled, setMobileMenuOpen }) =
 
       {/* CENTER: Logo */}
       <div style={{ width: "33%", display: "flex", justifyContent: "center" }}>
-        <Link href="/" style={{ textDecoration: "none", color: "#000000", display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <span style={{
-            fontSize: "2rem",
-            fontWeight: 800,
-            letterSpacing: "0.05em",
-            fontFamily: "sans-serif", // Zala font placeholder
-            lineHeight: 1
-          }}>ATRAK</span>
+        <Link href="/" style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <img src="/assets/icon/logo.svg" alt="ATRAK Logo" style={{ height: "60px", objectFit: "contain", transform: "scale(2.5)" }} />
         </Link>
       </div>
 

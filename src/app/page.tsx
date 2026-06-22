@@ -6,6 +6,7 @@ import CapabilitiesSection from "../components/CapabilitiesSection";
 import NewProductsSlider from "../components/NewProductsSlider";
 import ProductsGrid from "../components/ProductsGrid";
 import ServicesSection from "../components/ServicesSection";
+import PartnersSection from "../components/PartnersSection";
 
 const Home: React.FC = () => {
   return (
@@ -24,6 +25,9 @@ const Home: React.FC = () => {
 
       {/* Services */}
       <ServicesSection />
+
+      {/* Partners */}
+      <PartnersSection />
     </div>
   );
 };

@@ -196,5 +196,8 @@
         "desc": "Continuous remote monitoring of critical infrastructure, pipelines, and agricultural zones."
       }
     }
+  },
+  "partners": {
+    "title": "OUR PARTNERS"
   }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React from "react";
@@ -10,10 +11,10 @@ const Footer: React.FC = () => {
   return (
     <footer id="contact" className="footer">
       <div className="container footer-grid">
-        
+
         {/* Brand */}
         <div className="brand">
-          <h3>ATRAK</h3>
+          <img src="/assets/icon/logo-black.svg" alt="ATRAK Logo" style={{ height: "30px", marginBottom: "2.5rem", objectFit: "contain", transform: "scale(2.5)", transformOrigin: "left center" }} />
           <p>{t("footer.desc")}</p>
         </div>
 

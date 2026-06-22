@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useState } from "react";
@@ -118,8 +119,8 @@ export const DrawerMenu: React.FC<DrawerMenuProps> = ({ mobileMenuOpen, setMobil
               >
                 <X size={28} strokeWidth={1} />
               </button>
-              <div style={{ fontWeight: 800, fontSize: "1.5rem", letterSpacing: "2px", fontFamily: "var(--font-family-mono)" }}>
-                ATRAK
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <img src="/assets/icon/logo.svg" alt="ATRAK Logo" style={{ height: "40px", objectFit: "contain", transform: "scale(2.5)", transformOrigin: "left center" }} />
               </div>
               <div style={{ width: 28 }} /> {/* spacer for centering */}
             </div>
@@ -222,7 +223,7 @@ export const DrawerMenu: React.FC<DrawerMenuProps> = ({ mobileMenuOpen, setMobil
               background: "#ffffff",
               borderRight: (!isMobile && isExpanded) ? "1px solid #f0f0f0" : "none"
             }}>
-              
+
               {/* Header inside pane */}
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "3rem" }}>
                 <button
@@ -246,8 +247,8 @@ export const DrawerMenu: React.FC<DrawerMenuProps> = ({ mobileMenuOpen, setMobil
                   {!isMobile && t("topBar.menu")}
                 </button>
                 {isMobile && (
-                  <div style={{ fontWeight: 800, fontSize: "1.5rem", letterSpacing: "2px", fontFamily: "var(--font-family-mono)" }}>
-                    ATRAK
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <img src="/assets/icon/logo.svg" alt="ATRAK Logo" style={{ height: "40px", objectFit: "contain", transform: "scale(2.5)", transformOrigin: "left center" }} />
                   </div>
                 )}
                 {isMobile && <div style={{ width: 28 }} />}
@@ -310,10 +311,10 @@ export const DrawerMenu: React.FC<DrawerMenuProps> = ({ mobileMenuOpen, setMobil
                           alignItems: "center"
                         }}
                       >
-                        <ChevronRight 
-                          size={isMobile ? 24 : 18} 
-                          strokeWidth={1} 
-                          color="#4a4a4a" 
+                        <ChevronRight
+                          size={isMobile ? 24 : 18}
+                          strokeWidth={1}
+                          color="#4a4a4a"
                         />
                       </button>
                     )}
